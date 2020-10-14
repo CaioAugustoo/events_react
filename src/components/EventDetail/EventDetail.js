@@ -16,10 +16,8 @@ import {
   CardViews,
   EventAdress,
 } from "./style";
-import Loader from "../Loader/Loader";
 
 const DetailEvent = () => {
-  const [loading, setLoading] = useState(false);
   const [event, setEvent] = useState([]);
   const { id } = useParams();
 
@@ -69,7 +67,7 @@ const DetailEvent = () => {
             </CardViews>
           </CardInfos>
         </EventDetail>
-        {loading && <Loader />}
+
     </Wrapper>
   );
 };
