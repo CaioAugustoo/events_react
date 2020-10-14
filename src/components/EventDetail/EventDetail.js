@@ -35,7 +35,6 @@ const DetailEvent = () => {
         setLoading(false);
       });
   }, [id]);
-  console.log(event);
   if (event === null) return null;
   return (
     <Wrapper>
