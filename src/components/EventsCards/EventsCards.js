@@ -19,7 +19,7 @@ import { Link, useLocation } from "react-router-dom";
 import Loader from "../Loader/Loader";
 import SearchBar from "../SearchBar/SearchBar";
 
-const EventsCards = ({ match }) => {
+const EventsCards = () => {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(false);
   const isLoggedIn = localStorage.getItem("Auth");
