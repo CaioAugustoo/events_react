@@ -24,15 +24,19 @@ const DetailEvent = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    setLoading(true);
-    firebase
+      firebase
       .firestore()
       .collection("eventos")
       .doc(id)
       .get()
-      .then(async (result) => {
-        await setEvent(result.data());
-        setLoading(false);
+      .then((result) => {
+        setEvent(result.data());
+        firebase
+        .firestore()
+        .collection("eventos")
+        .doc(id)
+        .update('eventViews', result.data().eventViews + 1)
+        
       });
   }, [id]);
   if (event === null) return null;
