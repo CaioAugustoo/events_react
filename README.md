@@ -2,7 +2,7 @@
 Web App de criação de eventos.
 
 ## Sobre o projeto 
-Este projeto consiste em criar eventos e visualizar demais eventos. Contém sistema de cadastro, login e recuperação de senha através de email. 
+Este projeto consiste em criar eventos e visualizar de mais eventos. Contém sistema de cadastro, login e recuperação de senha através de email. 
 Neste é possível adicionar/visualizar novos eventos.
 
 
