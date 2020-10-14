@@ -41,7 +41,7 @@ export const CardTitle = styled.h2`
   font-weight: 400;
   font-size: 1.35rem;
   
-  @media(min-width: 300px) and (max-width: 400px) {
+  @media(min-width: 300px) and (max-width: 500px) {
     max-width: 200px;
   }
 `;
