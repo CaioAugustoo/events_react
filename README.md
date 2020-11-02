@@ -1,28 +1,28 @@
-# Events
+# 🎭 Events
 Web App de criação de eventos.
 
-## Sobre o projeto 
+## ℹ️ Sobre o projeto 
 Este projeto consiste em criar eventos e visualizar de mais eventos. Contém sistema de cadastro, login e recuperação de senha através de email. 
 Neste é possível adicionar/visualizar novos eventos.
 
 
-## Demonstração
+## ✨ Demonstração
 Veja abaixo uma foto do projeto.
 [![Image from Gyazo](https://i.gyazo.com/ffc6cf47517677d5c22a334e2bddd034.png)](https://gyazo.com/ffc6cf47517677d5c22a334e2bddd034)
 
 Você pode conferir o resultado final em: https://evenstreact.netlify.app
 
-## Objetivo do projeto
+## 🎯 Objetivo do projeto
 Foi realizado este projeto com o intuito de aplicar os conhecimentos adquiridos com Firebase.
 
-## Tecnologias 
+## 📝 Tecnologias 
 Para a realização desse projeto foi utilizado as seguintes tecnologias/linguagens: 
 - [ReactJS](https://pt-br.reactjs.org) para criação da interface
 - [styled-components](https://styled-components.com) para a estilização
 - [Firebase/Firestore](https://firebase.google.com/?hl=pt-br) para utilização de NoSQL
 - [React Router](https://reactrouter.com/web/guides/quick-start) para gerenciarmos as rotas
 
-## Instalação
+## ⚙️ Instalação
 Para que este rode em sua máquina, siga os passos abaixo:
 
 ```bash
