@@ -114,7 +114,7 @@ const NewEventForm = () => {
         onClick={UserPost}
       />
       {!loading && error && (
-        <Error description="Erro ao criar um evento. Verifique se os campos foram preenchidos corretamnete."></Error>
+        <Error description="Erro ao criar um evento. Verifique se os campos foram preenchidos corretamente."></Error>
       )}
       {!loading && !error && created && (
         <Sucess sucessText="Evento publicado com sucesso! :)" />
